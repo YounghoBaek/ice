@@ -1,0 +1,17 @@
+/* Error: expected more input.
+ *    ,
+ * 30 | 패키징해서 재활용할수 있도록 하는 것 
+ *    |                      ^
+ *    '
+ *   scss\style.scss 30:22  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected more input.\a    \2577 \a 30 \2502  \d328 \d0a4 \c9d5 \d574 \c11c  \c7ac \d65c \c6a9 \d560 \c218  \c788 \b3c4 \b85d  \d558 \b294  \ac83  \a    \2502                       ^\a    \2575 \a   scss\\style.scss 30:22  root stylesheet";
+}

@@ -1,0 +1,22 @@
+@mixin clear {
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+
+@mixin button($wid:120px, $ht:30px, 
+$fontsize: 12px,$bgcolor:pink,$fontcolor:#fff) {
+    display: block;
+    width: 120px;
+    height: 30px;
+    background-color: pink;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: arial;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
